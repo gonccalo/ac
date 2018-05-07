@@ -2,5 +2,5 @@ language: c
 
 script: 
   - cmake src && make
-  - ./tests/test.sh
+  - cd tests && ./test.sh
 
