@@ -1,4 +1,6 @@
 language: c
 
-script: cmake src && make
+script: 
+  - cmake src && make
+  - ./tests/test.sh
 
